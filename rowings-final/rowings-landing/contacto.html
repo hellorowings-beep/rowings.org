@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contáctanos — Rowings</title>
+<meta name="description" content="Escríbenos: cuéntanos quién eres y qué te gustaría construir con Rowings, la aceleradora de talento para la IA beneficiosa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<div class="bar">
+<a href="index.html#inicio" aria-label="Rowings, inicio"><img src="assets/logo.png" alt="" width="30" height="40" style="display:block"></a>
+<nav id="menu" aria-label="Principal">
+<a class="link" href="index.html#quienes">Rowings</a>
+<a class="link" href="index.html#impacto">IA para el Bien</a>
+<a class="link" href="index.html#programas">Ruta</a>
+<a class="link" href="index.html#faq">FAQ</a>
+<div class="nb"><a href="contacto.html" aria-current="page">Contáctanos</a><a href="https://chat.whatsapp.com/K2Tq759ibBO39VDR2DajNa?s=cl&p=i&mlu=4&ilr=4">Únete a la comunidad</a></div>
+</nav>
+<button class="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">☰</button>
+</div>
+</header>
+
+<main>
+<section class="ct"><div class="wrap">
+<div class="eyebrow">Contacto</div>
+<h1>Contáctanos</h1>
+<p class="intro">Cuéntanos quién eres, en qué trabajas y qué te gustaría construir con nosotros. Atendemos consultas sobre formación, el kit de herramientas, alianzas, financiamiento y colaboraciones.</p>
+<h2 class="sub">Envíanos un mensaje</h2>
+<form id="contacto-form" action="https://formsubmit.co/ajax/hellorowings@gmail.com" method="post">
+<input type="hidden" name="_subject" value="Nuevo mensaje desde la página de Rowings"><input type="hidden" name="_template" value="table"><input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<div><label for="nombre">Nombre <i>*</i></label><input id="nombre" name="nombre" type="text" autocomplete="name" required></div>
+<div><label for="correo">Correo electrónico <i>*</i></label><input id="correo" name="correo" type="email" placeholder="tu@ejemplo.com" autocomplete="email" required></div>
+<div class="full"><label for="tema">¿Sobre qué te gustaría hablar? <i>*</i></label><select id="tema" name="tema" required><option value="">Elige una opción</option><option>Formación y cursos</option><option>Kit de herramientas de código abierto</option><option>Alianzas y colaboración</option><option>Financiamiento (Kapok)</option><option>Agencia Summit</option><option>Prensa y medios</option><option>Otro</option></select></div>
+<div class="full"><label for="mensaje">Mensaje <i>*</i></label><p class="hint">Cuéntanos tu pregunta, proyecto o tipo de colaboración. Si escribes en nombre de una organización, indícalo aquí.</p><textarea id="mensaje" name="mensaje" required></textarea></div>
+<p class="note full">Por favor, no envíes información confidencial ni datos personales sensibles.</p>
+<label class="ck full"><input type="checkbox" name="autorizacion" value="Sí" required><span>He leído la <a href="privacidad.html">Política de Privacidad</a> y autorizo a Rowings a tratar mis datos para responder esta consulta, incluida su transmisión a proveedores tecnológicos que alojan o envían el formulario, dentro o fuera de Colombia.</span></label>
+<div class="full"><button class="pill dk" type="submit">Enviar consulta</button></div>
+<p id="msg" role="status" aria-live="polite"></p>
+</form>
+</div></section>
+<section class="who"><div class="wrap">
+<h2 class="big">Con quién trabajamos</h2>
+<p class="lead2">Rowings trabaja con jóvenes, organizaciones y entidades de todo LATAM para formar talento y construir soluciones de IA para el Bien.</p>
+<div class="ppl"><div><h3>Jóvenes constructores</h3><p>Jóvenes de comunidades subrepresentadas que quieren formarse en IA para el Bien y construir soluciones para sus territorios.</p></div><div><h3>Entidades públicas</h3><p>Gobiernos y entidades que buscan talento, formación y soluciones de IA con ética desde el diseño.</p></div><div><h3>Organizaciones sociales</h3><p>Organizaciones que impulsan comunidades más justas y sostenibles y quieren co-construir soluciones reales.</p></div><div><h3>Academia e instituciones educativas</h3><p>Universidades y centros educativos que se suman a nuestros programas de formación y a Agencia Summit.</p></div><div><h3>Empresas y financiadores</h3><p>Empresas, startups y fondos interesados en financiar y escalar proyectos, incluido Kapok, nuestra plataforma de financiamiento alternativo.</p></div></div>
+</div></section>
+</main>
+
+<footer>
+<div class="ft">
+<div class="brand">
+<a class="lg" href="index.html#inicio" aria-label="Rowings, inicio"><img src="assets/logo-footer.png" alt="" width="64" height="86"><span>Rowings</span></a>
+<p>Rowings es una aceleradora de talento para la IA beneficiosa. Gestionamos cursos y herramientas comunitarias.</p>
+<!-- TODO: reemplazar href="#" por los perfiles reales -->
+<div class="soc">
+<a href="https://youtube.com/@rownigs?si=HGnGcYSCP7xqgEeB" aria-label="YouTube"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></svg></a>
+<a href="https://instagram.com/withrowings?srtk=azB1YnV5OTRnc25l" aria-label="Instagram"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg></a>
+<a href="https://www.linkedin.com/company/rowings/" aria-label="LinkedIn"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2.5"/><path d="M8 10.5V16M8 7.8v.1M12 16v-5.5M12 13c0-1.6 1-2.5 2.3-2.5 1.4 0 1.9 1 1.9 2.4V16"/></svg></a>
+</div>
+</div>
+<nav aria-label="Pie de página">
+<div><a class="link" href="index.html#impacto">Impacto</a><a class="link" href="index.html#quienes">Quiénes somos</a><a class="link" href="index.html#programas">Programas</a><a class="link" href="privacidad.html">Política de Privacidad</a><a class="link" href="terminos.html">Términos y condiciones</a><a class="link" href="cookies.html">Política de Cookies</a></div>
+<div><a class="link" href="index.html#programas">Cursos</a><a class="link" href="index.html#comunidad">Comunidad</a><a class="link" href="index.html#faq">FAQ</a></div>
+</nav>
+</div>
+<div class="copy">© 2026 Rowings Corp. Todos los derechos reservados.</div>
+</footer>
+
+<script>
+const h=document.querySelector('header'),b=h.querySelector('.burger');
+const set=o=>{h.classList.toggle('open',o);b.setAttribute('aria-expanded',o)};
+b.onclick=()=>set(!h.classList.contains('open'));
+h.querySelectorAll('nav a').forEach(a=>a.onclick=()=>set(false));
+const f=document.getElementById('contacto-form'),m=document.getElementById('msg');
+f.addEventListener('submit',async e=>{e.preventDefault();const b=f.querySelector('button');b.disabled=true;m.textContent='Enviando…';
+try{const r=await fetch(f.action,{method:'POST',headers:{Accept:'application/json'},body:new FormData(f)});if(!r.ok)throw 0;f.reset();m.textContent='¡Gracias! Recibimos tu mensaje y te responderemos pronto.'}
+catch(_){m.textContent='No pudimos enviar el mensaje. Escríbenos a hellorowings@gmail.com.'}
+b.disabled=false});
+</script>
+</body>
+</html>
